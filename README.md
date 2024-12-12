@@ -1,6 +1,6 @@
 Medical image classification is essential for precise diagnosis, but the lack of labeled datasets is a major obstacle because labeling takes time and skill. Conventional techniques such as CNNs find it difficult to strike a balance between global context and local feature extraction, particularly in pathology where minute variations in tissue patterns are crucial. To overcome these problems, this research suggests utilizing self-supervised learning (SSL) and Vision Transformers (ViTs) in conjunction with the DINO architecture. Using smaller labeled datasets to fine-tune ViTs after pre-training them on unannotated data allows the method to capture both global structures and local details. Preliminary findings indicate that sophisticated medical picture classification can be done with accuracy and precision.
 
-The code is separated into four different files which each do separate tasks for the proposed model. Below are details of each code file and instructions on how to run the code.
+The code is separated into four different files which each do separate tasks for the proposed model. Below are details of each code file and instructions on how to run the code and instrcuctions on how to download the datasets. 
 
 ## Instructions to Run `Huron_Tiny.ipynb`
 
@@ -180,7 +180,7 @@ This notebook is used to validate models for 4-class classification using the pr
 
 ---
 
-## Instructions to Download the Unlabeled Dataset
+## Instructions to Download the Datasets
 
 ### Dataset Location
 The unlabeled dataset and the 3 datasets to train the model (Huron_Labelled_Data, Huron_Labelled_Data_4_Class, and Huron_Labelled_Data_2_Class) are hosted on Google Drive. Use the following link to access it:
