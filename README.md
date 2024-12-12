@@ -183,9 +183,8 @@ This notebook is used to validate models for 4-class classification using the pr
 ## Instructions to Download the Unlabeled Dataset
 
 ### Dataset Location
-The unlabeled dataset is hosted on Google Drive. Use the following link to access it:
-[Unlabeled Dataset on Google Drive](https://drive.google.com/drive/folders/111_X3SAe6lyAr3rRn5OFupBgAljbUa2I?usp=sharing)
-All other datasets are in the repository.
+The unlabeled dataset and the 3 datasets to train the model (Huron_Labelled_Data, Huron_Labelled_Data_4_Class, and Huron_Labelled_Data_2_Class) are hosted on Google Drive. Use the following link to access it:
+[Datasets on Google Drive](https://drive.google.com/drive/folders/111_X3SAe6lyAr3rRn5OFupBgAljbUa2I?usp=sharing)
 
 ### Steps to Download the Dataset
 
