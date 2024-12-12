@@ -45,6 +45,8 @@ This notebook is used to train the encoder that will serve as the backbone for a
 
 ## Instructions to Run `Huron_Training.ipynb`
 
+ > Note: Training_with_Pretrained_Dino colab file runs exactly the same with one exception
+
 ### Purpose
 
 This notebook is used to train the classification head using labeled data.
@@ -65,6 +67,7 @@ This notebook is used to train the classification head using labeled data.
      - `Huron_Labelled_Data_4_Class`
      - `Huron_Labelled_Data_2_Class`
    - Upload the `checkpoints` folder containing the file `checkpoint_tiny_epoch_9.pth` to the Google Colab contents folder
+      > If running Training_with_Pretrained_Dino, instead upload the DINO backbone file as explained in that Colab notebook.
 
 3. **Connect to a Runtime**:
 
